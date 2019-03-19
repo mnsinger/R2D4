@@ -3,7 +3,7 @@
 This is a Java Spring web application that is currently called [R2D4](https://dataline.mskcc.org/DataLine). It is used to manage and automate DataLine requests from researchers and administrators (entered through the [DataLine Request Form](http://darwin.mskcc.org/resources/dataline_request.htm)).
 
 ### Login Screen
-![](https://github.mskcc.org/singerm/R2D4/blob/master/2019-02-23%2014_54_13-Window.png)
+![](2019-02-23%2014_54_13-Window.png)
 
 ### Developer Dashboard
 ![](https://github.mskcc.org/singerm/R2D4/blob/master/2019-02-23%2014_57_53-Window.png)
