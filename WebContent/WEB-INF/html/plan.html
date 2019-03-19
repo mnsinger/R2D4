@@ -1,0 +1,129 @@
+<style>
+
+	.emailMsgData {
+		background-color: rgb(255,255,255);width:650px;
+	}
+
+	.emailFieldName {
+		width:150px;
+	}
+
+	#reqTable {
+		margin:auto;font-family:Calibri;font-size:10pt;background-color:rgb(238,238,238);text-align:left;width:800px;
+	}
+
+</style>
+{approvalLink}
+<table width="100%">
+<tbody>
+<tr>
+<td>
+	<table id="reqTable">
+		<tbody>
+		<tr>
+		<td class="emailFieldName">
+		<b>Project Code:</b></td>
+		<td class="emailMsgData"><b>{sn_code}</b></td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Plan Version Timestamp:</b></td>
+		<td class="emailMsgData">{version}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Name:</b></td>
+		<td class="emailMsgData">{requesterName}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Job Title:</b></td>
+		<td class="emailMsgData">{requester_title}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Department:</b></td>
+		<td class="emailMsgData">{requesterDepartment}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>MSKCC Email:</b></td>
+		<td class="emailMsgData">{requester_email}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Request Type:</b></td>
+		<td class="emailMsgData">{privacy_type}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>IRB # (if applicable):</b></td>
+		<td class="emailMsgData">{irb_waiver}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Project Description:</b></td>
+		<td class="emailMsgData">{request_description}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Project Purpose:</b></td>
+		<td class="emailMsgData">{purpose_of_request}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Data Elements:</b></td>
+		<td class="emailMsgData">{data_elements}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Criteria:</b></td>
+		<td class="emailMsgData">{criteria}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Tech Specs:</b></td>
+		<td class="emailMsgData">{technical_specs}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Recurring Status:</b></td>
+		<td class="emailMsgData">{automation}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Test Plan:</b></td>
+		<td class="emailMsgData">{test_plan}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Request Submitted Date:</b></td>
+		<td class="emailMsgData">{received_date}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Requested Delivery Date:</b></td>
+		<td class="emailMsgData">{reqd_deliv_date}</td>
+		</tr>
+		<tr>
+		<td class="emailFieldName">
+		<b>Project Notes:</b></td>
+		<td class="emailMsgData">{project_notes}</td>
+		</tr>
+		<!--tr>
+		<td>
+		<b>Delivery Format:</b></td>
+		<td class="emailMsgData"><font style="color:red;">Currently not captured in database</font></td>
+		</tr-->
+		<tr>
+		<td class="emailFieldName">
+		<b>Previous Projects:</b></td>
+		<td class="emailMsgData">{cross_ref}</td>
+		</tr>
+		</tbody>
+	</table>
+</td>
+</tr>
+</tbody>
+</table>
+</span></div>
